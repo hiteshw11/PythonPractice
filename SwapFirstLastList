@@ -1,0 +1,15 @@
+# Swap The First And Last Elements In The List
+
+arr1=[3,5,4,1]
+
+first=arr1[0]
+
+lastnum=len(arr1)-1
+
+last=arr1[lastnum]
+
+arr1[0]=last
+arr1[lastnum]=first
+
+print('By Swapping First & Last Numbers We get the below list')
+print(arr1)
