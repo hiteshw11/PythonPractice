@@ -1,0 +1,13 @@
+# Find Factorial Of A Number
+
+def factorial(number):
+    fact=1
+    while(number>1):
+        fact=fact*(number)
+        number=number-1
+
+    return fact
+
+num=int(input('Enter The Number To Calculate Factorial '))
+
+print(f'The Factorial Of The Number is {int(factorial(num))}')
