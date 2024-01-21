@@ -1,0 +1,17 @@
+#Python Program To Find Second Largest Numer In A List
+
+arr1=[3,4,6,7,9,20,10]
+largest=arr1[0]
+secondlarge=0
+
+for i in arr1[1::]:
+    if i>largest:
+        largest=i
+
+for i in arr1[1::]:
+    if i>secondlarge and i!=largest:
+        secondlarge=i
+
+
+print(largest)
+print(secondlarge)
