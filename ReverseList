@@ -1,0 +1,17 @@
+#Python Program To Reverse The Numbers In A List
+
+myList=[1,2,3,4,5]
+myList2=[]
+abc=len(myList)
+
+#Method1
+# for i in range(abc-1,-1,-1):
+#     myList2.append(myList[i])
+
+
+#Method2
+print(myList[::-1])
+
+
+# print(myList)
+# print(myList2)
