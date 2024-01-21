@@ -1,0 +1,13 @@
+# Swap Two Elements At Specific Positions In The List
+
+arr1=[3,4,5,6,7]
+
+first=int(input('Enter The First Position '))
+second=int(input('Enter The Second Position '))
+
+temp=arr1[first-1]
+arr1[first-1]=arr1[second-1]
+arr1[second-1]=temp
+
+print('The array After Swapped Position Is ')
+print(arr1)
